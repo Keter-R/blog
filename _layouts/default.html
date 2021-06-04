@@ -26,10 +26,10 @@
       {%- if page.lf_image -%}
         {%- assign lf_image        = page.lf_image -%}
       {%- endif -%}
-      <div class="sidebar-left pure-u-1 pure-u-md-1-4" style="background-color: {{ cover_bg_color }}; color: {{ cover_color}}; {% if cover_image %}background-image: url({{ cover_image | relative_url }});{% endif %}">
+      <div class="sidebar-left pure-u-1 pure-u-md-1-4" style="background-size:cover;background-color: {{ cover_bg_color }}; color: {{ cover_color}}; {% if cover_image %}background-image: url({{ cover_image | relative_url }});{% endif %}">
         {%- include sidebar-left.html -%}
       </div>
-      <div style="background-size:contain; background-color: {{ cover_bg_color }}; color: {{ cover_color}}; {% if md_image %}background-image: url({{ md_image | relative_url }});{% endif %}">
+      <div style="background-size:cover; background-color: {{ cover_bg_color }}; color: {{ cover_color}}; {% if md_image %}background-image: url({{ md_image | relative_url }});{% endif %}">
         <div class="content pure-u-1 pure-u-md-1-2">
           {%- include content.html -%}
         </div>
