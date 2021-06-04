@@ -7,6 +7,7 @@ paginate: 5
 #permalink: pretty
 cover_image: /images/background.jpg
 md_image: /images/midground.jpg
+lf_image: /images/lfground.jpg
 # Gems
 plugins:
   - jekyll-gist
