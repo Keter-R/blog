@@ -33,7 +33,7 @@
       <div class="content pure-u-1 pure-u-md-1-2" style="background-size:cover; background-color: {{ cover_bg_color }}; color: {{ cover_color}}; {% if md_image %}background-image: url({{ md_image | relative_url }});{% endif %}">
         {%- include content.html -%}
       </div>
-      <div class="sidebar-right pure-u-1 pure-u-md-1-4" style="background-size:percentage 100% 100%; background-color: {{ cover_bg_color }}; color: {{ cover_color}}; {% if lf_image %}background-image: url({{ lf_image | relative_url }});{% endif %}">
+      <div class="sidebar-right pure-u-1 pure-u-md-1-4" style="background-size:percentage 100% auto; background-color: {{ cover_bg_color }}; color: {{ cover_color}}; {% if lf_image %}background-image: url({{ lf_image | relative_url }});{% endif %}">
         {%- include sidebar-right.html -%}
       </div>
     </div>
