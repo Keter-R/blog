@@ -6,7 +6,7 @@ avatar: /images/avatar.jpg
 paginate: 5
 #permalink: pretty
 cover_image: /images/background.jpg
-
+md_image: /images/midground.jpg
 # Gems
 plugins:
   - jekyll-gist
