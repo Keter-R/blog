@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-也曾是OIer
+曾经的OIer，如今的？
